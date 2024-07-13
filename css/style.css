@@ -13,8 +13,8 @@
 .red-layer {
     background-color: salmon;
     position: relative;
-    left: 120px;
-    top: 120px;
+    left: 100px;
+    top: 160px;
     z-index: 1;
 }
 
@@ -28,8 +28,8 @@
 .green-layer {
     background-color: rgb(93, 248, 163);
     position: relative;
-    right: 120px;
-    top: 360px;
+    right: 100px;
+    top: 320px;
     z-index: 1;
 }
 
