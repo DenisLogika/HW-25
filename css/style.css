@@ -1,0 +1,32 @@
+.layers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+}
+
+.layer {
+    width: 200px;
+    height: 200px;
+}
+
+.red-layer {
+    background-color: red;
+    position: relative;
+    left: 120px;
+    top: 120px;
+}
+
+.blue-layer {
+    background-color: blue;
+    position: relative;
+    top: 240px;
+    z-index: 2;
+}
+
+.green-layer {
+    background-color: green;
+    position: relative;
+    right: 120px;
+    top: 360px;
+}
