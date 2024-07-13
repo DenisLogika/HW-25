@@ -6,27 +6,31 @@
 }
 
 .layer {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
 }
 
 .red-layer {
-    background-color: red;
+    background-color: salmon;
     position: relative;
     left: 120px;
     top: 120px;
+    z-index: 1;
 }
 
 .blue-layer {
-    background-color: blue;
+    background-color: rgb(101, 127, 207);
     position: relative;
     top: 240px;
     z-index: 2;
 }
 
 .green-layer {
-    background-color: green;
+    background-color: rgb(93, 248, 163);
     position: relative;
     right: 120px;
     top: 360px;
+    z-index: 1;
 }
+
+/* Можна і не задавати z-index для green-layer та red-layer. */
